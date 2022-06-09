@@ -13,15 +13,17 @@
         /* Style the body */
         body {
           font-family: Arial, Helvetica, sans-serif;
-          margin: 0;
+          margin: 0; 
+          margin-top:-10px;
         }
         
         /* Header/logo Title */
         .header {
           padding: 80px;
           text-align: center;
-          background: #1abc9c;
           color: white;
+          background-image: url(https://cdn.pixabay.com/photo/2014/05/18/00/27/cloud-346706_960_720.png)
+         ;
         }
         
         /* Increase the font size of the heading */
@@ -92,8 +94,10 @@
         .footer {
           padding: 20px;
           text-align: center;
-          background: #ddd;
+          background: #00a0e3;
         }
+        li{line-height: 200%;}
+        section{padding-bottom:20px;}
         
         /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 700px) {
@@ -111,51 +115,67 @@
         }
         </style>
 </head>
-<body>
-  
-
-
-    <div class="header">
-        <h1>Basic Website</h1>
+<body> <div class="header">
+        <h1>Susan Winters</h1>
         <p>A basic HTML website</p>
-      </div>
+         </div>
       
       <div class="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#" class="right">Link</a>
+       &nbsp;
       </div>
       
       <div class="row">
         <div class="side">
-          <h2>About Me</h2>
-          <h5>Photo of me:</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-          <h3>More Text</h3>
-          <p>Lorem ipsum dolor sit ame.</p>
-          <div class="fakeimg" style="height:60px;">Image</div><br>
-          <div class="fakeimg" style="height:60px;">Image</div><br>
-          <div class="fakeimg" style="height:60px;">Image</div>
+        
+          <h2>Photo of me:</h2>
+          <img src="images/susan-with-robot.jpg" alt="susan with robot" />
+ <p>Photo taken at SMX - (Search Marketing Expo)</p>
+       
         </div>
         <div class="main">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          <br>
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
+            <section>
+          <h2>Short Bio</h2>
+         <p>Hello World! My name is Susan Winters and I live in Dallas, Texas.  I love science and technology.  
+             I work in the MarTech field - which is short for Marketing and Technology. Because of my job I get to travel 
+            to different conferences where I learn about the latest trends in the industry. I have been to Google and attended
+        training from the best in the field of SEO and Search Engine Marketing.  I always get to meet interesting people and 
+        collaborate on new projects. The photo of me on the left was at the SMX event the year before the pandemic. I look forward to
+        traveling again and I always enjoy coming home with new swag.
+        </p>
+
+        <h3>Work Experience:</h3>
+        <p>I am currently the Marketing Website Manager for an organization that owns several brands. I work with the Brand Managers and help them
+            with the promotion of new products by creating new web pages and marketing material for our social media channels. I have recently started
+            learning Salesforce and using that knowledge to create forms in their product called Marketing Cloud.  
+            </p>
+        </p>
+        <h3>What's New:</h3>
+          <p>I am currently enrolled in a Coding Bootcamp where I am brushing up on my coding skills.  I look forward to creating new projects
+              using C#, ASP.NET MVC, SQL and Azure. The web page you are currently viewing is for one of my assignments. This is just a basic HTML website 
+              but I am using inline styles. This project is just to show that I can create a basic webpage and upload it to GitHub. 
+          </p>
+         </section>
+        <section>
+<h2>My Education</h2>
+<p>I have a Bachelors Degree in Computer Science / Information Technology.</p>
+<h3>Certifications</h3>
+You can view my certifications on <a href="https://www.credly.com/users/susan-winters.ec2b7a75/badges">Credly</a>. 
+</section>
+
+<section>
+          <h2>Ways To Contact Me</h2>
+          <ul>
+            <li>Instagram: <a href="https://www.instagram.com/sgrw214/">https://www.instagram.com/sgrw214/</a>   </li>
+            <li>Twitter: <a href="https://twitter.com/susanwinters214">https://twitter.com/susanwinters214</a>  </li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/susanwinters214/">https://www.linkedin.com/in/susanwinters214/</a>  </li>
+            <li>GitHub: <a href="https://github.com/susanwinters214">https://github.com/susanwinters214</a>  </li>
+          </ul>
+        </section>
+ </div>
       </div>
       
       <div class="footer">
-        <h2>Footer</h2>
+        <h2>&copy; Susan Winters | 2022</h2>
       </div>
       
 
