@@ -5,120 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Website</title>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        /* Style the body */
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-          margin: 0; 
-          margin-top:-10px;
-        }
-        
-        /* Header/logo Title */
-        .header {
-          padding: 80px;
-          text-align: center;
-          color: white;
-          background-image: url(https://cdn.pixabay.com/photo/2014/05/18/00/27/cloud-346706_960_720.png)
-         ;
-        }
-        
-        /* Increase the font size of the heading */
-        .header h1 {
-          font-size: 40px;
-        }
-        
-        /* Style the top navigation bar */
-        .navbar {
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        /* Style the navigation bar links */
-        .navbar a {
-          float: left;
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 20px;
-          text-decoration: none;
-        }
-        
-        /* Right-aligned link */
-        .navbar a.right {
-          float: right;
-        }
-        
-        /* Change color on hover */
-        .navbar a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-        
-        /* Column container */
-        .row {  
-          display: -ms-flexbox; /* IE10 */
-          display: flex;
-          -ms-flex-wrap: wrap; /* IE10 */
-          flex-wrap: wrap;
-        }
-        
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        .side {
-          -ms-flex: 30%; /* IE10 */
-          flex: 30%;
-          background-color: #f1f1f1;
-          padding: 20px;
-        }
-        
-        /* Main column */
-        .main {   
-          -ms-flex: 70%; /* IE10 */
-          flex: 70%;
-          background-color: white;
-          padding: 20px;
-        }
-        
-        /* Fake image, just for this example */
-        .fakeimg {
-          background-color: #aaa;
-          width: 100%;
-          padding: 20px;
-        }
-        
-        /* Footer */
-        .footer {
-          padding: 20px;
-          text-align: center;
-          background: #00a0e3;
-        }
-        ul{margin-left:-30px;}
-        li{line-height: 200%;font-size: .9em}
-        section{padding-bottom:20px;}
-        
-        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 700px) {
-          .row {   
-            flex-direction: column;
-          }
-        }
-        
-        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 400px) {
-          .navbar a {
-            float: none;
-            width: 100%;
-          }
-        }
-        </style>
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body> <div class="header">
         <h1>Susan Winters</h1>
-        <p>A basic HTML website</p>
+        <p>A basic HTML website with external CSS</p>
          </div>
       
       <div class="navbar">
@@ -153,7 +44,7 @@
         <h3>What's New:</h3>
           <p>I am currently enrolled in a Coding Bootcamp where I am brushing up on my coding skills.  I look forward to creating new projects
               using C#, ASP.NET MVC, SQL and Azure. The web page you are currently viewing is for one of my assignments. This is just a basic HTML website 
-              but I am using inline styles. This project is just to show that I can create a basic webpage and upload it to GitHub. 
+              with an external stylesheet. This project demonstrates that I can create a basic webpage with an external stylesheet and upload the files to GitHub. 
           </p>
          </section>
         <section>
